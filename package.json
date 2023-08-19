@@ -1,5 +1,5 @@
 {
-  "name": "zod-to-asyncapi",
+  "name": "@hgoesi/zod-to-asyncapi",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
