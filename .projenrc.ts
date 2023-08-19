@@ -1,5 +1,5 @@
 import { typescript } from 'projen';
-const project = new typescript.TypeScriptProject({
+const project = new typescript.TypeScriptAppProject({
   defaultReleaseBranch: 'main',
   name: 'zod-to-asyncapi',
   projenrcTs: true,
