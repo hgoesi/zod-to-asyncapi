@@ -5,6 +5,7 @@ const project = new typescript.TypeScriptProject({
   projenrcTs: true,
   packageManager: javascript.NodePackageManager.NPM,
   releaseToNpm: true,
+  npmAccess: javascript.NpmAccess.PUBLIC,
 
 
   // deps: [],                /* Runtime dependencies of this module. */
